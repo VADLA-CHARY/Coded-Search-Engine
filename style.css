@@ -1,0 +1,84 @@
+body {
+  margin: 20px;
+  background: #B2BEB5;
+  transition: smooth;
+}
+.flex{
+  display:flex;
+
+}
+.main{
+  display: flex;
+  margin:10px;
+}
+.submain{
+  border: 1px black solid;
+  border-radius: 10px;
+  float: right;
+  margin: 5px;
+  width:50%;
+}
+.submain .addinput{
+  margin:10px;
+  width:90%;
+  height:70px;
+  text-align: center;
+}
+.submain .addinput .btn{
+  display: flex;
+  margin:10px;
+  width:400px;
+  height:40px;
+  text-align: center;
+}
+.margin{
+  margin:10px;
+  padding:5px;
+}
+.submain .addinput .btn button{
+  background-color: blue;
+  border:none;
+  width:100px;
+  height:30px;
+  color:#fff;
+  border-radius: 5px;
+  margin-right: 10px;
+
+}
+.ipts{
+  width: 50%;
+}
+input{
+  width:98%;
+  text-align:left;
+  padding-left:20px;
+  height:20px;
+  border:none;
+  margin-left: 10px;
+  font-size:17px;
+  outline:none;
+  border-radius:10px;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  /* border-color: none;
+  box-shadow: none;
+  outline: none; */
+}
+.names .hidden{
+  display:none;
+}
+.list{
+  border:none;
+  width: 50%;
+  height:100%;
+  min-height: 0px;
+  border-radius:5px;
+  margin:10px;
+  background-color: #fff;
+  transition:smooth;
+  border-radius: 5px;
+}
+p{
+  padding-left: 20px;
+}
